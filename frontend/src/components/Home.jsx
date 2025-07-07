@@ -35,7 +35,7 @@ const Home = () => {
         <SchoolInfo>
           <Title>School Management System</Title>
           <LoremTextContainer>
-            <p>{loremText}</p>
+            <p></p>
           </LoremTextContainer>
           <AdminRegisterLink to="/admin/register">Admin Register</AdminRegisterLink>
         </SchoolInfo>
