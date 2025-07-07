@@ -2,7 +2,7 @@
   "name": "school-management-system",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd frontend && npm install && ./node_modules/.bin/vite build",
+    "build": "cd frontend && npm install && node node_modules/vite/bin/vite.js build",
     "start": "cd backend && npm install && npm start",
     "install-all": "cd backend && npm install && cd ../frontend && npm install"
   },
